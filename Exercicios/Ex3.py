@@ -7,8 +7,8 @@ def qtd_elemento(elem):
     lista = elem.split(' ')
     dicionario = {}
     for i in elem:
-        dicionario[i] = elem
-        dicionario[i] = elem.count(i)
+        dicionario[i] = lista
+        dicionario[i] = lista.count(i)
     return dicionario
 
 def main():
